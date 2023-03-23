@@ -2,10 +2,7 @@ name: Deploy to Azure
 on:
   push:
     branches:
-      - mm23-lab03-github-actions
-  pull_request:
-    branches:
-      - mm23-lab03-github-actions
+      - main
 jobs:
   build-deploy:
     runs-on: ubuntu-22.04
